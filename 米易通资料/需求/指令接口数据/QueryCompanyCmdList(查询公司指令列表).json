@@ -1,0 +1,182 @@
+{
+    "success": true,
+    "errCode": {
+        "code": 0,
+        "errMessage": null
+    },
+    "data": {
+        "totalCount": 54,
+        "totalPage": 6,
+        "currentPageData": [
+            {
+                "id": 6,
+                "name": "传感器遥测",
+                "content": "$cmd=sample",
+                "allowDeviceTypeInfo": [],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 24,
+                "name": "固件升级",
+                "content": "$cmd=md_upgrade&url={url}&size={size}&md5={md5}",
+                "allowDeviceTypeInfo": [],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 107,
+                "name": "恢复设备出厂设置",
+                "content": "$cmd=md_reset",
+                "allowDeviceTypeInfo": [],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 127,
+                "name": "获取NMEA输出内容及输出频率",
+                "content": "$cmd=md_getnmeatime",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 6,
+                        "deviceTypeName": "E60"
+                    },
+                    {
+                        "deviceTypeID": 10,
+                        "deviceTypeName": "E40"
+                    },
+                    {
+                        "deviceTypeID": 13,
+                        "deviceTypeName": "E40S"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 121,
+                "name": "获取Ntrip服务相关参数",
+                "content": "$cmd=md_getntrip",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 6,
+                        "deviceTypeName": "E60"
+                    },
+                    {
+                        "deviceTypeID": 10,
+                        "deviceTypeName": "E40"
+                    },
+                    {
+                        "deviceTypeID": 13,
+                        "deviceTypeName": "E40S"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 123,
+                "name": "获取RTK模式相关参数",
+                "content": "$cmd=md_getrtk",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 6,
+                        "deviceTypeName": "E60"
+                    },
+                    {
+                        "deviceTypeID": 10,
+                        "deviceTypeName": "E40"
+                    },
+                    {
+                        "deviceTypeID": 13,
+                        "deviceTypeName": "E40S"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 109,
+                "name": "获取北斗数传终端指令",
+                "content": "$cmd=md_getbdterminal",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 4,
+                        "deviceTypeName": "DAS"
+                    },
+                    {
+                        "deviceTypeID": 5,
+                        "deviceTypeName": "DAG"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 129,
+                "name": "获取本地解算指令",
+                "content": "$cmd=md_getembedams",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 6,
+                        "deviceTypeName": "E60"
+                    },
+                    {
+                        "deviceTypeID": 10,
+                        "deviceTypeName": "E40"
+                    },
+                    {
+                        "deviceTypeID": 13,
+                        "deviceTypeName": "E40S"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 117,
+                "name": "获取采集控制相关参数",
+                "content": "$cmd=md_getcollctrl",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 4,
+                        "deviceTypeName": "DAS"
+                    },
+                    {
+                        "deviceTypeID": 5,
+                        "deviceTypeName": "DAG"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            },
+            {
+                "id": 115,
+                "name": "获取采集器和传感器之间的通信波特率",
+                "content": "$cmd=md_getcolluart",
+                "allowDeviceTypeInfo": [
+                    {
+                        "deviceTypeID": 4,
+                        "deviceTypeName": "DAS"
+                    },
+                    {
+                        "deviceTypeID": 5,
+                        "deviceTypeName": "DAG"
+                    }
+                ],
+                "definitionType": 0,
+                "cmdType": 0,
+                "cmdTypeString": "常用指令"
+            }
+        ]
+    }
+}
