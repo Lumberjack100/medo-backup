@@ -2,7 +2,7 @@
 
 
 ## 米易通 APP
-### Release 2.4.1 (VersionCode: 1211)
+### Release 2.4.1 (VersionCode: 1215)
 
 - 修复扩展传感器配置页面 Bug
 - 优化 WiFi 列表页面
