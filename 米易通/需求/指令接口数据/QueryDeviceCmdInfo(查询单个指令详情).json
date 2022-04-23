@@ -1,0 +1,48 @@
+{
+    "success": true,
+    "errCode": {
+        "code": 0,
+        "errMessage": null
+    },
+    "data": {
+        "cmd": {
+            "id": 24,
+            "companyID": -1,
+            "chnName": "固件升级",
+            "engName": "md_upgrade",
+            "definitionType": 0,
+            "createUser": 4,
+            "createTime": "2019-12-27 10:53:00",
+            "cmdType": 0
+        },
+        "parameters": [
+            {
+                "id": 13,
+                "cmdID": 24,
+                "parameterChnName": "固件HTTP地址",
+                "parameterEngName": "url",
+                "parameterType": "String",
+                "defaultValue": null
+            },
+            {
+                "id": 14,
+                "cmdID": 24,
+                "parameterChnName": "固件大小",
+                "parameterEngName": "size",
+                "parameterType": "Int",
+                "defaultValue": null
+            },
+            {
+                "id": 15,
+                "cmdID": 24,
+                "parameterChnName": "固件MD5",
+                "parameterEngName": "md5",
+                "parameterType": "String",
+                "defaultValue": null
+            }
+        ],
+        "allowTypes": null,
+        "cmdType": 0,
+        "cmdTypeString": "常用指令"
+    }
+}
