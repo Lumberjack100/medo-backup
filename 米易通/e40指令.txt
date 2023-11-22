@@ -1,0 +1,82 @@
+1. E40 的 RTK
+mode //0表示基站，1表示移动站
+
+获取 $cmd=md_getrtk
+设置 $cmd=md_setrtk&mode=3
+
+2. E40 的 CORS 服务参数
+sw //0：表示关闭，1：表示打开
+addr //服务器地址
+port //服务器端口号
+user //用户名
+pswd //密码
+sta //站点名
+
+获取 $cmd=md_getntrip
+设置 $cmd=md_setntrip&sw=3&addr=3&port=3&user=3&pswd=3&sta=3
+
+3. E40 的板卡解算参数
+inittime //初始化时间
+calcgap //解算时间
+smoothlevel //平滑等级
+reinit //重新初始化
+rtkdynamicmode //RTK动态模式
+corrval //形变修正值
+
+获取 $cmd=md_getembedams
+设置 $cmd=md_setembedams&inittime=3&calcgap=3&smoothlevel=3&reinit=3&rtkdynamicmode=3&corrval=3
+
+4. E40 的有线网络配置置参数
+dhcp 
+ip
+netmask
+gateway
+dns
+
+获取 $cmd=md_geteth0
+设置 $cmd=md_seteth0&dhcp=3&ip=3&netmask=3&gateway=3&dns=3
+
+5. E40 的串口配置置参数
+type //输出数据格式 
+baud //波特率
+databits //数据位
+parity //校验位
+stopbits //停止位
+
+获取 $cmd=md_getdbguart
+设置 $cmd=md_setdbguart&type=3&baud=3&databits=3&parity=3&stopbits=3
+
+6. E40 的 GPS 工作参数
+cutoffangle //卫星仰角截止角 范围0-90度
+range //观测范围  0或1
+savefreq //数据频率
+
+获取 $cmd=md_getgpsparam
+设置 $cmd=md_setgpsparam&cutoffangle=3&range=3&savefreq=3
+
+7. E40 的基站位置信息
+mode //1表示自动模式，2表示第一次自动获取以后采用第一次值，3表示手动模式，当为自动模式时，可不设置其他参数
+lon //经度
+lat //纬度
+alt //高程
+
+获取 $cmd=md_getbaseposition
+设置 $cmd=md_setbaseposition&mode=3&lon=3&lat=3&alt=3
+
+8. E40 的NMEA输出内容及输出频率
+gga
+rmc
+vtg
+gsv
+gsa
+
+获取 $cmd=md_getnmeatime
+设置 $cmd=md_setnmeatime&ggatime=3&rmctime=3&vtgtime=3&gsvtime=3&gsatime=3
+
+
+
+9. E40 获取设备卫星状态
+
+获取 $cmd=md_getsatelitte
+
+响应 $cmd=md_getsatelitte&satelitte=

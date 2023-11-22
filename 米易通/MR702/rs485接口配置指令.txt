@@ -1,0 +1,238 @@
+RS485-端口1 指令
+1.采集控制参数配置
+
+noresp：超时次数/无应答次数
+collgap: 采集间隔
+collfreq: 采集频率
+collcycle: 采集周期
+
+$cmd=md_set485port1_coll&
+
+发：$cmd=md_set485port1_coll&noresp=3&collgap=500&collfreq=500&collcycle=1&
+响应：
+    成功 --  $cmd=md_set485port1_coll&result=succ
+    失败 -- $cmd=md_set485port1_coll&result=fail&reason=
+
+2.采集控制参数获取
+
+$cmd=md_get485port1_coll&
+
+发:   $cmd=md_get485port1_coll&
+响应：
+    成功 -- $cmd=md_get485port1_coll&noresp=3&collgap=500&collfreq=500&collcycle=1
+    失败 -- $cmd=md_get485port1_coll&result=fail&reason=
+
+3.参数配置
+
+model：物模型 
+c_model：创建新指令    --创建新指令发1。修改指令发0
+num:  物模型变量	--创建新指令时可以传任意值。修改指令根据传指定变量
+swtoken：水文标识	
+cmd：传感器采集指令
+ratio：倍率     
+dataformat：数据类型    
+    接收数据的组合方式 ：
+        0 -- 无符号单字节、1 -- 无符号双字节AB、2 -- 无符号双字节BA 、
+        3 -- 无符号四字节ABCD、4 -- 无符号四字节BADC、5 -- 无符号CDAB、
+        6 -- 无符号四字节DCBA、7 -- 有符号单字节、8 -- 有符号双字节AB、
+        9 -- 有符号双字节BA 、10-- 有符号四字节ABCD、11 -- 有符号四字节BADC、
+        12 -- 有符号四字节CDAB、13-- 有符号四字节DCBA、14 -- 浮点型ABCD、
+        15 -- 浮点型BADC、16 -- 浮点型CDAB、17 -- 浮点型DCBA、
+        18 -- 双浮点型ABCDEFGH、19 -- 双浮点型BADCFEHG、20 -- 双浮点型EFGHABCD。
+calctype：解算方式   --目前只支持 0:加权平均
+gateval：触发值
+uplimit：上限值
+lowlimit：下限值
+corrvalue：修正值
+baud：波特率
+parity：校验位
+databit：数据位
+stopbit：停止位
+show：展示指令信息（终端），1：展示，0：不展示
+
+$cmd=md_set485port1_param&
+
+发：$cmd=md_set485port1_param&model=214_1&c_model=1&num=0&swtoken=59&cmd=0102030506&ratio=0.1&dataformat=0&calctype=0&gateval=8&uplimit=5&lowlimit=1&corrvalue=7&baud=9600&parity=0&databit=8&stopbit=0&show=1&
+
+响应：
+    成功 -- $cmd=md_set485port1_param&result=succ
+    失败 -- $cmd=md_set485port1_param&result=fail&reason=model
+
+
+
+4.传感器获取
+
+$cmd=md_get485port1_sensor&
+index：0-- 获取全部  1--获取第一条，2 -- 获取第二条 以此类推
+
+方式1：获取全部
+发：$cmd=md_get485port1_sensor&index=0&  
+
+响应：
+    成功 -- $cmd=md_get485port1_sensor&{"ssr1":{"model":"214_1","sta":"0"},"ssr2":{"model":"214_2","sta":"0"},...}
+    失败 -- $cmd=md_get485port1_sensor&result=fail&
+
+方式1：获取单个
+发：$cmd=md_get485port1_sensor&index=1&  
+
+响应：
+    成功 -- $cmd=md_get485port1_sensor&{"ssr1":{"model":"214_1","sta":"0"},"index":"1","indexnum":"2"}
+    失败 -- $cmd=md_get485port1_sensor&result=fail&
+
+model:物模型加地址（214_1 214为物模型 1为地址）
+sta:状态  0：接入
+
+5.参数获取
+
+$cmd=md_get485port1_param&
+
+通过model查询
+注意 索引从0开始
+发：$cmd=md_get485port1_param&model=1&index=0& 
+
+响应：
+    失败 -- $cmd=md_get485port1_param&result=fail&reason=index 
+    成功 -- 数据以json格式回复:
+        $cmd=md_get485port1_param&{"485port1_param":[{"model":"214_1","num":"0","swtoken":"59","cmd":"0102030506","ratio":"0.1","dataformat":"0","calctype":"0","gateval":"8","uplimit":"5","lowlimit":"1","corrvalue":"7","baud":"9600","parity":"0","databit":"8","stopbit":"0"}],"index":"0","indexnum":"1"}
+
+    除index与indexnum可参考 3.参数配置
+    index：索引 表示要获取第几条信息 0--获取第一条，1--获取第二条 以此类推
+    indexnum：表示当前索引数量 主要根据该值进行获取
+
+6.参数删除
+
+    model：表示模型
+    num：模型变量号分量
+    del: 删除方式 0 -- 删除全部  1 -- 删除指定模型  2 -- 删除指定模型变量（不使用）
+
+   $cmd=md_del485port1_param&
+
+指令使用例程：
+    （1）删除全部指令：
+    发送指令：
+         $cmd = md_del485port1_param&del=0
+    响应：
+        $cmd = md_del485port1_param&result=succ
+
+    （2）删除指定模型指令：
+        删除模型2-1
+        发送：
+        $cmd = md_del485port1_param&mode=2-1&del=1
+        响应：
+        $cmd = md_del485port1_param&result=fail&reason=model -- 表示没有该模型
+        $cmd = md_del485port1_param&result=succ -- 表示删除该模型成功
+
+
+RS485-端口2 指令
+1.采集控制参数配置
+
+colladdr：采集器地址
+colltype：采集器类型
+noresp：超时次数/无应答次数
+collgap: 采集间隔
+collfreq: 采集频率
+collcycle: 采集周期
+
+$cmd=md_set485port2_coll&
+
+发：$cmd=md_set485port2_coll&colladdr=1&colltype=0&noresp=3&collgap=500&collfreq=500&collcycle=1&
+响应：
+    成功 --  $cmd=md_set485port2_coll&result=succ
+    失败 -- $cmd=md_set485port2_coll&result=fail&reason=
+
+2.采集控制参数获取
+
+$cmd=md_get485port2_coll&
+
+发:   $cmd=md_get485port2_coll&
+响应：
+    成功 -- $cmd=md_get485port2_coll&colladdr=1&colltype=0&noresp=3&collgap=500&collfreq=500&collcycle=1
+    失败 -- $cmd=md_get485port2_coll&result=fail&reason=
+
+3.串口参数配置
+
+baud：波特率
+parity：校验位
+databit：数据位
+stopbit：停止位
+
+$cmd=md_set485port2_uart&
+
+发：$cmd=md_set485port2_uart&baud=9600&parity=0&databit=8&stopbit=0&
+响应：
+    成功 --  $cmd=md_set485port2_uart&result=succ
+    失败 -- $cmd=md_set485port2_uart&result=fail&reason=
+
+4.串口参数获取
+
+$cmd=md_get485port2_uart&
+
+发:   $cmd=md_get485port2_uart&
+响应：
+    成功 -- $cmd=md_get485port2_uart&baud=9600&parity=0&databit=8&stopbit=0
+    失败 -- $cmd=md_get485port2_uart&result=fail&reason=
+
+
+5.参数配置
+
+chl：通道编号 根据设备来最多到通道15
+model：物模型
+swtoken：水文标识
+sensoraddr：传感器地址
+sensortype：传感器类型
+filtercnt：滤波次数
+gateval：触发值
+uplimit：上限值
+lowlimit：下限值
+corrvalue：修正值
+
+$cmd=md_set485port2_param&
+
+发：$cmd=md_set485port2_param&chl=0&model=214_1&swtoken=59&sensoraddr=1&sensortype=0&filtercnt=1&gateval=0.1&uplimit=100&lowlimit=0&corrvalue=0&
+响应：
+    成功 -- $cmd=md_set485port2_param&result=succ
+    失败 -- $cmd=md_set485port2_param&result=fail&reason=
+
+6.传感器状态获取
+$cmd=md_get485port2_sensor&
+index：0-- 获取全部  1--获取第一条，2 -- 获取第二条 以此类推
+
+方式1：获取全部
+发：$cmd=md_get485port2_sensor&index=0&  
+
+响应：
+    成功 -- $cmd=md_get485port2_sensor&{"ssr1":{"chl":"0","model":"214_1","sta":"0"},"ssr2":{"chl":"1","model":"214_2","sta":"0"},....}
+    失败 -- $cmd=md_get485port2_sensor&result=fail&
+
+方式1：获取单个
+发：$cmd=md_get485port1_sensor&index=1&  
+
+响应：
+    成功 -- $cmd=md_get485port1_sensor&
+    失败 -- $cmd=md_get485port1_sensor&result=fail&{"ssr":{"chl":"0","model":"214_1","sta":"0"},"index":"1","indexnum":"2"}
+chl:通道
+model:物模型加地址（214_1 214为物模型 1为地址）
+sta:状态  0：接入
+
+6.参数获取
+chl:使用通道获取参数
+$cmd=md_get485port2_param&
+
+注意 索引从1开始
+发：$cmd=md_get485port2_param&chl=0& 
+
+响应：
+    失败 -- $cmd=md_get485port2_param&result=fail&reason=chl 
+    成功 -- 
+        $cmd=md_get485port2_param&chl=0&model=214_1&swtoken=59&sensoraddr=1&sensortype=0&filtercnt=1&gateval=0.1&uplimit=100&lowlimit=0&corrvalue=0
+
+
+7.参数删除
+chl: 通道
+
+$cmd=md_del485port2_param&
+
+发:   $cmd=md_del485port2_param&chl=0
+响应：
+    成功 -- $cmd=md_del485port2_param&result=succ
+    失败 -- $cmd=md_del485port2_param&result=fail&reason=chl
