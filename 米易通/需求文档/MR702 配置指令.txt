@@ -1,0 +1,24 @@
+485-1新增参数：mgbk-采集要素GBK编码  egbk-单位GBK编码  sgbk-传感器名称GBK编码
+例：$cmd=md_set485port1_param&model=214_20&c_model=1&num=0&swtoken=0&cmd=0300050001&ratio=0.1&dataformat=8&calctype=0&gateval=50&uplimit=60&lowlimit=-30&corrvalue=0&ngateval=3&baud=9600&databit=8&parity=0&stopbit=0&mgbk=CBAECEBB&egbk=6D6D&sgbk=CBAECEBBBCC6
+中：“mgbk=CBAECEBB”表示 “水位”
+      “egbk=6D6D” 表示 “mm”
+       "sgbk=CBAECEBBBCC6" 表示 “水位计”
+
+接口配置-DO
+
+$md_mrgetdostatus&
+
+kstatus1-kstatus4 开关1-4状态  1 开 0关
+kstatus5-kstatus8 继电器1-4状态  1 开 0关
+应答
+$md_mrgetdostatus&kstatus1=&kstatus2=&kstatus3=&kstatus4=&kstatus5&kstatus6=&kstatus7=&kstatus8=&
+
+设置下发
+
+ktype   开关编号  数字  1-8
+status  开关状态   1 开 0关
+
+$md_mrsetdostatus&ktype=&status=&
+
+成功 --  $cmd=md_mrsetdostatus&result=succ
+失败 -- $cmd=md_mrsetdostatus&result=fail&reason=

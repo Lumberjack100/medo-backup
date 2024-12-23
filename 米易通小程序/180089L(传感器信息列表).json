@@ -1,0 +1,56 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "totalCount": 2,
+        "totalPage": 1,
+        "currentPageData": [
+            {
+                "id": 20170,
+                "name": "206_5",
+                "alias": "206_5",
+                "dataProtocol": "206",
+                "uniqueToken": "D413B4B8F37D4CAD89F8EBB35AAE42EC",
+                "installLocation": null,
+                "gpsLocation": null,
+                "status": 0,
+                "iotSensorType": "206",
+                "sensorValid": true,
+                "warnNoData": true,
+                "exValues": null,
+                "note": null,
+                "monitorBeginTime": "2022-04-24 13:00:07",
+                "deviceID": null,
+                "deviceToken": null,
+                "productID": null,
+                "productToken": null,
+                "productName": null,
+                "iotSensorTypeStr": "倾角计",
+                "createDeviceToken": "180089L"
+            },
+            {
+                "id": 20169,
+                "name": "104_3",
+                "alias": "104_3",
+                "dataProtocol": "104",
+                "uniqueToken": "D413B4B8F37D4CAD89F8EBB35AAE42EC",
+                "installLocation": null,
+                "gpsLocation": null,
+                "status": 0,
+                "iotSensorType": "104",
+                "sensorValid": true,
+                "warnNoData": true,
+                "exValues": null,
+                "note": null,
+                "monitorBeginTime": "2022-04-24 13:00:01",
+                "deviceID": null,
+                "deviceToken": null,
+                "productID": null,
+                "productToken": null,
+                "productName": null,
+                "iotSensorTypeStr": "泥位计",
+                "createDeviceToken": "180089L"
+            }
+        ]
+    }
+}

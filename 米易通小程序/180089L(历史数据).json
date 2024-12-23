@@ -1,0 +1,174 @@
+{
+    "code": 0,
+    "msg": null,
+    "data":
+    {
+        "sensorList":
+        [
+            {
+                "sensorID": 20170,
+                "sensorName": "206_5",
+                "sensorAlias": "206_5",
+                "iotSensorType": "206"
+            }
+        ],
+        "fieldList":
+        [
+            {
+                "id": 16,
+                "fieldToken": "x",
+                "fieldName": "南北方向角度",
+                "fieldDesc": "南北方向角度",
+                "fieldUnitID": 8,
+                "engUnit": "°",
+                "childFieldList": null,
+                "modelID": 9,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": null,
+                "fieldOrder": 1,
+                "fieldDataType": "Double",
+                "fieldJsonPath": null
+            },
+            {
+                "id": 17,
+                "fieldToken": "y",
+                "fieldName": "东西方向角度",
+                "fieldDesc": "东西方向角度",
+                "fieldUnitID": 8,
+                "engUnit": "°",
+                "childFieldList": null,
+                "modelID": 9,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": null,
+                "fieldOrder": 2,
+                "fieldDataType": "Double",
+                "fieldJsonPath": null
+            },
+            {
+                "id": 18,
+                "fieldToken": "z",
+                "fieldName": "垂直方向角度",
+                "fieldDesc": "垂直方向角度",
+                "fieldUnitID": 8,
+                "engUnit": "°",
+                "childFieldList": null,
+                "modelID": 9,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": null,
+                "fieldOrder": 3,
+                "fieldDataType": "Double",
+                "fieldJsonPath": null
+            }
+        ],
+        "pageResult":
+        {
+            "totalCount": 12,
+            "totalPage": 1,
+            "currentPageData":
+            [
+                {
+                    "geneID": "GENE_5CA856A962E74E3CAB0141AD69E3BB35@479883488",
+                    "x": 12.532,
+                    "y": 6.015,
+                    "z": 76.053,
+                    "time": "2022-04-25 11:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_DC36C4AC440048DDA295392248D2B4C7@478985705",
+                    "x": 13.164,
+                    "y": 5.281,
+                    "z": 75.779,
+                    "time": "2022-04-25 09:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_9CBDA8D4BAF54B4290D757EECD37E6EF@477923272",
+                    "x": 13.203,
+                    "y": 5.25,
+                    "z": 75.756,
+                    "time": "2022-04-25 07:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_66A39CAF31A844069C235F9DB4537286@476945616",
+                    "x": 12.633,
+                    "y": 3.395,
+                    "z": 76.907,
+                    "time": "2022-04-25 05:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_93B595EBA28042618E08112FAE3BFE6F@475994152",
+                    "x": 12.629,
+                    "y": 3.401,
+                    "z": 76.904,
+                    "time": "2022-04-25 03:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_E281B40F18574812AE696640FA5381A1@475196081",
+                    "x": 12.63,
+                    "y": 3.401,
+                    "z": 76.904,
+                    "time": "2022-04-25 01:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_24F0E1057E544C27BB97187E743FC3FA@474268973",
+                    "x": 12.64,
+                    "y": 3.399,
+                    "z": 76.894,
+                    "time": "2022-04-24 23:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_01C9E2561FCD40BD93DEF7DEB860C7D6@473329501",
+                    "x": 12.647,
+                    "y": 3.402,
+                    "z": 76.888,
+                    "time": "2022-04-24 21:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_A2D48C625B52497BBDF590F3A5B471F5@471633473",
+                    "x": 13.355,
+                    "y": 3.087,
+                    "z": 76.277,
+                    "time": "2022-04-24 19:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_0D04F9B3D59A445988F4849120C84B56@470308519",
+                    "x": 12.294,
+                    "y": 2.407,
+                    "z": 77.463,
+                    "time": "2022-04-24 17:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_250E7D6C5623477DA1A56EA7E8B8F65A@468842548",
+                    "x": 12.618,
+                    "y": 2.283,
+                    "z": 77.171,
+                    "time": "2022-04-24 15:00:00.000",
+                    "sensorID": 20170
+                },
+                {
+                    "geneID": "GENE_FABF2700BDA14B9A99A02DA1946B159C@466462808",
+                    "x": 12.824,
+                    "y": 0.746,
+                    "z": 77.156,
+                    "time": "2022-04-24 13:00:00.000",
+                    "sensorID": 20170
+                }
+            ]
+        }
+    }
+}

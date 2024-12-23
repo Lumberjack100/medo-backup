@@ -1,0 +1,1362 @@
+{
+    "addTime": 1676937102000,
+    "cameraInfoList": [
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频1@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 1,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频10@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 10,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频11@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 11,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频12@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 12,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频13@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 13,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频14@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 14,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频15@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 15,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频16@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 16,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频17@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 17,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频18@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 18,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频19@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 19,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频2@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 2,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频20@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 20,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频21@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 21,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频22@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 22,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频23@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 23,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频24@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 24,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频25@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 25,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频26@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 26,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频27@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 27,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频28@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 28,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频29@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 29,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频3@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 3,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频30@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 30,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频31@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 31,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频32@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 32,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频33@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 33,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频34@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 34,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频35@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 35,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频36@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 36,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频37@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 37,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频38@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 38,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频39@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 39,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频4@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 4,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频40@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 40,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频41@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 41,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频42@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 42,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频43@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 43,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频44@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 44,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频45@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 45,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频46@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 46,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频47@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 47,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频48@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 48,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频49@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 49,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频5@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 5,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频50@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 50,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频51@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 51,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频52@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 52,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频53@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 53,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频54@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 54,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频55@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 55,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频56@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 56,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频57@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 57,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频58@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 58,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频59@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 59,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频6@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 6,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频60@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 60,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频61@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 61,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频62@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 62,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频63@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 63,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频64@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 64,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频7@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 7,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频8@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 8,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        },
+        {
+            "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+            "cameraName": "视频9@iDS-9664NX-I8/X(K52644610)",
+            "cameraNo": 9,
+            "deviceSerial": "K52644610",
+            "isShared": 0,
+            "permission": -1,
+            "videoLevel": 0,
+            "videoQualityInfos": [
+                {
+                    "streamType": 2,
+                    "videoLevel": 0,
+                    "videoQualityName": "流畅"
+                },
+                {
+                    "streamType": 1,
+                    "videoLevel": 2,
+                    "videoQualityName": "高清"
+                }
+            ]
+        }
+    ],
+    "cameraNum": 64,
+    "category": "UNKNOWN",
+    "defence": 0,
+    "detectorNum": 0,
+    "deviceName": "iDS-9664NX-I8/X(K52644610)",
+    "deviceSerial": "K52644610",
+    "deviceType": "iDS-9664NX-I8/X",
+    "deviceVersion": "V4.61.000 build 220507",
+    "isEncrypt": 0,
+    "offlineNotify": 0,
+    "status": 1,
+    "supportChannelNums": 0,
+    "supportExtShort": "1|1|1|1|-1|-1|-1|-1|1|-1|-1|-1|-1|1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|4|-1|-1|1|1|1|-1|1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|0|0|64|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|1|1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|-1|"
+}

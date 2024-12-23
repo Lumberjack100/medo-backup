@@ -1,0 +1,21 @@
+{
+    "cameraCover": "https://statics.ys7.com/device/image/DVR/101.jpeg",
+    "cameraName": "视频1@iDS-9664NX-I8/X(K52644610)",
+    "cameraNo": 1,
+    "deviceSerial": "K52644610",
+    "isShared": 0,
+    "permission": -1,
+    "videoLevel": 0,
+    "videoQualityInfos": [
+        {
+            "streamType": 2,
+            "videoLevel": 0,
+            "videoQualityName": "流畅"
+        },
+        {
+            "streamType": 1,
+            "videoLevel": 2,
+            "videoQualityName": "高清"
+        }
+    ]
+}

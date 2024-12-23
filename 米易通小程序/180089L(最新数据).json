@@ -1,0 +1,81 @@
+{
+    "code": 0,
+    "msg": null,
+    "data":
+    {
+        "sensorList":
+        [
+            {
+                "sensorID": 20170,
+                "sensorName": "206_5",
+                "sensorAlias": "206_5",
+                "iotSensorType": "206"
+            }
+        ],
+        "fieldList":
+        [
+            {
+                "id": 16,
+                "fieldToken": "x",
+                "fieldName": "南北方向角度",
+                "fieldDesc": "南北方向角度",
+                "fieldUnitID": 8,
+                "engUnit": "°",
+                "childFieldList": null,
+                "modelID": 9,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": null,
+                "fieldOrder": 1,
+                "fieldDataType": "Double",
+                "fieldJsonPath": null
+            },
+            {
+                "id": 17,
+                "fieldToken": "y",
+                "fieldName": "东西方向角度",
+                "fieldDesc": "东西方向角度",
+                "fieldUnitID": 8,
+                "engUnit": "°",
+                "childFieldList": null,
+                "modelID": 9,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": null,
+                "fieldOrder": 2,
+                "fieldDataType": "Double",
+                "fieldJsonPath": null
+            },
+            {
+                "id": 18,
+                "fieldToken": "z",
+                "fieldName": "垂直方向角度",
+                "fieldDesc": "垂直方向角度",
+                "fieldUnitID": 8,
+                "engUnit": "°",
+                "childFieldList": null,
+                "modelID": 9,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": null,
+                "fieldOrder": 3,
+                "fieldDataType": "Double",
+                "fieldJsonPath": null
+            }
+        ],
+        "sensorData":
+        [
+            {
+                "geneID": "GENE_C73FC479A7264366870FDE303BF51373@493257620",
+                "x": -32.192,
+                "y": -1.452,
+                "z": 57.76,
+                "time": "2022-04-26 15:50:17.000",
+                "sensorID": 20170
+            }
+        ]
+    }
+}

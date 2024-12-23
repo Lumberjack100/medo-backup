@@ -1,0 +1,184 @@
+{
+    "code": 0,
+    "msg": null,
+    "data": {
+        "sensorList": [
+            {
+                "sensorID": 19365,
+                "sensorName": "10013_0-6",
+                "sensorAlias": "10013_0-6",
+                "iotSensorType": "10013"
+            }
+        ],
+        "fieldList": [
+            {
+                "id": 298,
+                "fieldToken": "id",
+                "fieldName": "数据序号",
+                "fieldDesc": "数据序号",
+                "fieldUnitID": 18,
+                "engUnit": "none",
+                "childFieldList": null,
+                "modelID": 163,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": "",
+                "fieldOrder": 1,
+                "fieldDataType": "Long",
+                "fieldJsonPath": "$['id']"
+            },
+            {
+                "id": 299,
+                "fieldToken": "distance",
+                "fieldName": "测点位置",
+                "fieldDesc": "测点位置",
+                "fieldUnitID": 9,
+                "engUnit": "m",
+                "childFieldList": null,
+                "modelID": 163,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": "{\"percision\":\"3\"}",
+                "fieldOrder": 2,
+                "fieldDataType": "Double",
+                "fieldJsonPath": "$['distance']"
+            },
+            {
+                "id": 300,
+                "fieldToken": "forward_x",
+                "fieldName": "X轴位移原始数据",
+                "fieldDesc": "X轴位移原始数据",
+                "fieldUnitID": 1,
+                "engUnit": "mm",
+                "childFieldList": null,
+                "modelID": 163,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": "{\"percision\":\"3\"}",
+                "fieldOrder": 3,
+                "fieldDataType": "Double",
+                "fieldJsonPath": "$['forward_x']"
+            },
+            {
+                "id": 301,
+                "fieldToken": "accum_x",
+                "fieldName": "X轴位移累加数据",
+                "fieldDesc": "X轴位移累加数据",
+                "fieldUnitID": 1,
+                "engUnit": "mm",
+                "childFieldList": null,
+                "modelID": 163,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": "{\"percision\":\"3\"}",
+                "fieldOrder": 4,
+                "fieldDataType": "Double",
+                "fieldJsonPath": "$['accum_x']"
+            },
+            {
+                "id": 302,
+                "fieldToken": "accum_y",
+                "fieldName": "Y轴位移累加数据",
+                "fieldDesc": "Y轴位移累加数据",
+                "fieldUnitID": 1,
+                "engUnit": "mm",
+                "childFieldList": null,
+                "modelID": 163,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": "{\"percision\":\"3\"}",
+                "fieldOrder": 5,
+                "fieldDataType": "Double",
+                "fieldJsonPath": "$['accum_y']"
+            },
+            {
+                "id": 303,
+                "fieldToken": "temp",
+                "fieldName": "测斜仪环境温度",
+                "fieldDesc": "测斜仪环境温度",
+                "fieldUnitID": 3,
+                "engUnit": "℃",
+                "childFieldList": null,
+                "modelID": 163,
+                "parentID": null,
+                "fieldStatisticsType": "mean",
+                "fieldStatisticsTypeString": "平均值",
+                "exValues": "{\"percision\":\"1\"}",
+                "fieldOrder": 6,
+                "fieldDataType": "Double",
+                "fieldJsonPath": "$['temp']"
+            }
+        ],
+        "pageResult": {
+            "totalCount": 6,
+            "totalPage": 1,
+            "currentPageData": [
+                {
+                    "temp": 24.7,
+                    "distance": 0.6,
+                    "forward_x": -30.517,
+                    "accum_x": 183.085,
+                    "accum_y": 0.0,
+                    "time": "2022-04-25 00:00:00.000",
+                    "id": 6,
+                    "sensorID": 19365
+                },
+                {
+                    "temp": 24.17142857142857,
+                    "distance": 0.6,
+                    "forward_x": -30.517,
+                    "accum_x": 183.08728571428568,
+                    "accum_y": 0.0,
+                    "time": "2022-04-24 00:00:00.000",
+                    "id": 6,
+                    "sensorID": 19365
+                },
+                {
+                    "temp": 24.356249999999996,
+                    "distance": 0.5999999999999999,
+                    "forward_x": -30.517875,
+                    "accum_x": 183.09124999999997,
+                    "accum_y": 0.0,
+                    "time": "2022-04-23 00:00:00.000",
+                    "id": 6,
+                    "sensorID": 19365
+                },
+                {
+                    "temp": 23.905263157894737,
+                    "distance": 0.5999999999999999,
+                    "forward_x": -30.519,
+                    "accum_x": 183.09668421052638,
+                    "accum_y": 0.0,
+                    "time": "2022-04-22 00:00:00.000",
+                    "id": 6,
+                    "sensorID": 19365
+                },
+                {
+                    "temp": 23.55263157894737,
+                    "distance": 0.5999999999999999,
+                    "forward_x": -30.51921052631579,
+                    "accum_x": 183.0997368421053,
+                    "accum_y": 0.0,
+                    "time": "2022-04-21 00:00:00.000",
+                    "id": 6,
+                    "sensorID": 19365
+                },
+                {
+                    "temp": 23.380000000000003,
+                    "distance": 0.6,
+                    "forward_x": -30.521000000000004,
+                    "accum_x": 183.11039999999997,
+                    "accum_y": 0.0,
+                    "time": "2022-04-20 00:00:00.000",
+                    "id": 6,
+                    "sensorID": 19365
+                }
+            ]
+        }
+    }
+}
